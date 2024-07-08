@@ -18,5 +18,11 @@ public class App {
         BankAccount customer1 = new BankAccount( "john Baptist","johb@google.com", "07025686145", "05236545",  2000);
         BankAccount customer2 = new BankAccount( "David lund","david@google.com", "07025673648", "05236855",  4000);
 
+        System.out.println(customer1.accountNumber);
+        System.out.println(customer2.balance);
+        System.out.println(customer1.depositFund());
+        System.out.println(customer2.name);
+        System.out.println(customer1.name);
+        System.out.println(customer1.email);
     }
 }
